@@ -1,0 +1,9 @@
+.whatsapp {
+  font-size: 27px;
+  color: black;
+}
+.whatsapp:hover {
+  color: #25d366;
+  transition: 0.3s;
+  transition-property: color;
+}

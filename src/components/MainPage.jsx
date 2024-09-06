@@ -1,16 +1,52 @@
 import "./MainPage.css";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
 function MainPage() {
   return (
     <div>
       <div className="sectionsContainer">
         <div className="section">
           <h2>المأكولات</h2>
+          <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
+            <div>
+              <img src={image1} width={200} className="rounded" />
+              <div className="h5 mt-2">مأكولات غربية </div>
+            </div>
+            <div>
+              <img src={image2} width={200} className="rounded" />
+              <div className="h5 mt-2">مأكولات شرقية</div>
+            </div>
+          </div>
         </div>
         <div className="section">
           <h2>المشروبات</h2>
+          <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
+            <div>
+              <img src={image1} width={200} className="rounded" />
+              <div className="h5 mt-2">مشروبات باردة </div>
+            </div>
+            <div>
+              <img src={image2} width={200} className="rounded" />
+              <div className="h5 mt-2">مشروبات ساخنة</div>
+            </div>
+          </div>
         </div>
         <div className="section">
           <h2>الحلويات</h2>
+          <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
+            <div>
+              <img src={image1} width={200} className="rounded" />
+              <div className="h5 mt-2">حلويات ساخنة </div>
+            </div>
+            <div>
+              <img src={image2} width={200} className="rounded" />
+              <div className="h5 mt-2">حلويات باردة</div>
+            </div>
+            <div>
+              <img src={image1} width={200} className="rounded" />
+              <div className="h5 mt-2">بوظة</div>
+            </div>
+          </div>
         </div>
         <div className="section">
           <h2>ا</h2>

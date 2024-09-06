@@ -11,7 +11,7 @@ function PageLayout() {
       <div className="MainPageConatiner">
         <Outlet />
       </div>
-      <div className="">
+      <div className="d-flex justify-content-center">
         <Footer />
       </div>
     </div>
