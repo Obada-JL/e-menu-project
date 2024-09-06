@@ -1,0 +1,20 @@
+.pageContainer {
+  /* background: rgb(158, 98, 52);
+  background: linear-gradient(
+    201deg,
+    rgba(158, 98, 52, 1) 36%,
+    rgba(96, 56, 19, 1) 58%
+  ); */
+  background-color: #f5f5f5;
+  /* min-height: 100vh; */
+}
+.MainPageConatiner {
+  background: rgb(158, 98, 52);
+  background: linear-gradient(
+    201deg,
+    rgba(158, 98, 52, 1) 36%,
+    rgba(96, 56, 19, 1) 58%
+  );
+  /* background-color: #f5f5f5; */
+  /* min-height: 100vh; */
+}
