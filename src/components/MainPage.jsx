@@ -1,6 +1,6 @@
 import "./MainPage.css";
-import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
+import image1 from "../assets/image1.JPG";
+import image2 from "../assets/image2.JPG";
 function MainPage() {
   return (
     <div>
