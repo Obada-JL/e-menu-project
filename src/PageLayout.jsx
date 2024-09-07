@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import "./PageLayout.css";
 import Footer from "./components/Footer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 // import Footer from "./Footer";
 
 function PageLayout() {
@@ -14,6 +16,14 @@ function PageLayout() {
       <div className="d-flex justify-content-center">
         <Footer />
       </div>
+      <a href="https://api.whatsapp.com/send/?phone=%2B905355066697&text&type=phone_number&app_absent=0">
+        <FontAwesomeIcon
+          icon={faWhatsapp}
+          size="2xl"
+          // style={{ fontSize: "50px", color: "#25D366" }}
+          className="mb-3 fixedWhatsappIcon"
+        />
+      </a>
     </div>
   );
 }

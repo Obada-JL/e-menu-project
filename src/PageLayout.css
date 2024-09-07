@@ -45,3 +45,14 @@
   position: relative;
   z-index: 2;
 }
+.fixedWhatsappIcon {
+  font-size: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+  background-color: #25d366;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+}
