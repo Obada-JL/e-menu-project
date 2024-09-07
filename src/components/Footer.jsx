@@ -66,7 +66,7 @@ function Footer() {
         </div>
       </div>
       <div className="h5 fw-bold text-center">
-        <p>© حقوق الطبق و النشر محفوظة لدى مقهى القلعة 2024</p>
+        <p>© حقوق الطبع و النشر محفوظة لدى مقهى القلعة 2024</p>
       </div>
     </div>
   );
