@@ -9,12 +9,39 @@
   /* min-height: 100vh; */
 }
 .MainPageConatiner {
-  background: rgb(158, 98, 52);
+  /* background: rgb(158, 98, 52);
   background: linear-gradient(
     201deg,
     rgba(158, 98, 52, 1) 36%,
     rgba(96, 56, 19, 1) 58%
-  );
+  ); */
+
+  background: linear-gradient(
+      201deg,
+      rgba(0, 0, 0, 0.6559873949579832) 36%,
+      rgba(0, 0, 0, 0.7092086834733893) 70%
+    ),
+    url("./assets/istockphoto-1135359711-612x612.jpg");
+
+  background-repeat: none;
+  background-size: cover;
+  /* background: rgb(0,0,0); */
   /* background-color: #f5f5f5; */
   /* min-height: 100vh; */
+}
+
+.MainPageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+  z-index: 1;
+}
+
+.MainPageContainer > * {
+  position: relative;
+  z-index: 2;
 }

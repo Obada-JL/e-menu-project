@@ -32,3 +32,8 @@
   text-decoration: underline;
   font-size: 32px;
 }
+.sectionImage {
+  border: 1px solid grey;
+  box-shadow: 3px 7px #ccc0c0;
+  margin-bottom: 7px;
+}

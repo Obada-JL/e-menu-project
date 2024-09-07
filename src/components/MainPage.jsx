@@ -9,11 +9,19 @@ function MainPage() {
           <h2>المأكولات</h2>
           <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
             <div>
-              <img src={image1} width={200} className="rounded" />
+              <img src={image1} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">مأكولات غربية </div>
             </div>
             <div>
-              <img src={image2} width={200} className="rounded" />
+              <img src={image2} width={200} className="rounded sectionImage" />
+              <div className="h5 mt-2">مأكولات غربية </div>
+            </div>
+            <div>
+              <img src={image1} width={200} className="rounded sectionImage" />
+              <div className="h5 mt-2">مأكولات غربية </div>
+            </div>
+            <div>
+              <img src={image2} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">مأكولات شرقية</div>
             </div>
           </div>
@@ -22,11 +30,11 @@ function MainPage() {
           <h2>المشروبات</h2>
           <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
             <div>
-              <img src={image1} width={200} className="rounded" />
+              <img src={image1} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">مشروبات باردة </div>
             </div>
             <div>
-              <img src={image2} width={200} className="rounded" />
+              <img src={image2} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">مشروبات ساخنة</div>
             </div>
           </div>
@@ -35,15 +43,15 @@ function MainPage() {
           <h2>الحلويات</h2>
           <div className="d-flex gap-5 justify-content-center mt-4 mb-3">
             <div>
-              <img src={image1} width={200} className="rounded" />
+              <img src={image1} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">حلويات ساخنة </div>
             </div>
             <div>
-              <img src={image2} width={200} className="rounded" />
+              <img src={image2} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">حلويات باردة</div>
             </div>
             <div>
-              <img src={image1} width={200} className="rounded" />
+              <img src={image1} width={200} className="rounded sectionImage" />
               <div className="h5 mt-2">بوظة</div>
             </div>
           </div>
