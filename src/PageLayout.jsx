@@ -8,7 +8,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function PageLayout() {
   return (
-    <div className="pageContainer" style={{ width: "100vw" }}>
+    <div className="pageContainer" style={{ width: "98.9vw" }}>
       <NavBar />
       <div className="MainPageConatiner">
         <Outlet />
